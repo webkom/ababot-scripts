@@ -1,0 +1,9 @@
+language: node_js
+branches:
+  only: 
+    - master
+script: ./commit-version.sh
+env:
+  global:
+    - secure: IBr+rWobSKOUvlfDBKgby/mhhcppviZum7ZknRFhpSQNF+hoYZbKSWbF+k6o6xa4NlJfvzJAuRgJ0T0FoLHoa6EuRrCJqCSLO08ZW+okYamEWmpbqe/G8CWeq7gLmfmrTBTNIfcNzXaHIB+PaSfriLW5yL9WEAx5099RAHrBDok=
+    - secure: AdPGjGFWUrffIytj9P2YDEWu2GHTbBaDhGWtEVNJE/Yu4vptFdMX7IPvRv4+tzGL6ozoevEMl/xrP76km0sb4HTi1I9+/HguEZh/IKVnx20xDgcvctFV6/BJcPudXrTblO+ixfj/nO1/w8sYAlDumOMomcugPpmlCzMGfLsekSc=

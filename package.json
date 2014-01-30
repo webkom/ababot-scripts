@@ -1,0 +1,26 @@
+{
+  "name": "ababot-scripts",
+  "version": "0.1.14",
+  "author": "webkom",
+  "keywords": [
+    "github",
+    "hubot",
+    "bot"
+  ],
+  "description": "The public scripts used for Abakus' IRC-bot ababot.",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/github/hubot/raw/master/LICENSE"
+    }
+  ],
+  "main": "./index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webkom/ababot-scripts.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  }
+}
